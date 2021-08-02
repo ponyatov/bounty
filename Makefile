@@ -54,7 +54,7 @@ $(PY) $(PIP):
 
 # merge
 
-MERGE  = Makefile README.md apt.txt apt.dev
+MERGE  = Makefile README.md apt.txt apt.dev .gitignore .vscode
 MERGE += bin doc lib src tmp
 MERGE += requirements.txt $(MODULE) fixture static index
 

@@ -22,13 +22,21 @@
                 {"command": "workbench.action.terminal.sendSequence",
                     "args": {"text": "\u000D clear ; make all \u000D"}}]
         },
-    ]
+    ],
     // / multi
 
     // \ files
-    "files.watcherExclude": {
-    },
     "files.exclude": {
+        "**/__pycache__/**":true,
+        "**/bin/**":true,
+        "**/lib/**":true,
+        "**/lib64/**":true,
+        "**/include/**":true,
+        "**/share/**":true,
+        "**/src/**":true,
+        "**/pyvenv.cfg":true,
+    },
+    "files.watcherExclude": {
     },
     "files.associations": {
         "requirements.*": "config",

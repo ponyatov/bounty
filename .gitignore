@@ -2,6 +2,8 @@
 *.swp
 *.log
 
+*.pyc
+__pycache__
 /lib/python*
 /lib64
 /include
